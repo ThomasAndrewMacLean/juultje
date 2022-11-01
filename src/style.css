@@ -9,3 +9,10 @@ body{
 .hide{
     display: none;
 }
+
+footer ul{
+    /* display: flex; */
+}
+.activePlayer {
+    text-decoration: underline;
+}
