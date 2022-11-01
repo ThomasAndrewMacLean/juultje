@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juultje</title>
+    <script src="./src/game.js" defer="defer" ></script>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <h1>Juultje</h1>
+    <section id="setup">
+        <h2>Choose number of players</h2>
+
+        <ul class="addPlayersList">
+            <li>
+                <label for="player1">Player 1</label>
+                <input type="text" name="player1" id="player1">
+            </li>
+
+            <li>
+                <label for="player2">Player 2</label>
+                <input type="text" name="player2" id="player2">
+            </li>
+       
+        </ul>
+       <button id="addPlayer">Add player</button>
+<div>
+    <button id="startGame">Start Game</button>
+
+</div>
+    </section>
+    <section id="game" class="hide">
+        <h2>Game</h2>
+    </section>
+</body>
+</html>
