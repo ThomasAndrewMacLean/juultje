@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juultje</title>
-    <script src="./src/game.js" defer="defer" ></script>
+    <script src="./src/game.js" defer="defer"></script>
     <link rel="stylesheet" href="./src/style.css">
 </head>
+
 <body>
     <h1>Juultje</h1>
     <section id="setup">
@@ -23,20 +25,49 @@
                 <label for="player2">Player 2</label>
                 <input type="text" name="player2" id="player2">
             </li>
-       
-        </ul>
-       <button id="addPlayer">Add player</button>
-<div>
-    <button id="startGame">Start Game</button>
 
-</div>
+        </ul>
+        <button id="addPlayer">Add player</button>
+        <div>
+            <button id="startGame">Start Game</button>
+
+        </div>
     </section>
     <section id="game" class="hide">
         <h2>Game</h2>
+        <div class="table">
+            <div>
+                <span id="score">0</span>
+            </div>
+            <div id="dice">
+
+                <div class="die"><label for="die0"></label>
+                    <input type="checkbox" name="die0" id="die0">
+                </div>
+                <div class="die"><label for="die1"></label>
+                    <input type="checkbox" name="die1" id="die1">
+                </div>
+                <div class="die"><label for="die2"></label>
+                    <input type="checkbox" name="die2" id="die2">
+                </div>
+                <div class="die"><label for="die3"></label>
+                    <input type="checkbox" name="die3" id="die3">
+                </div>
+                <div class="die"><label for="die4"></label>
+                    <input type="checkbox" name="die4" id="die4">
+                </div>
+            </div>
+
+        </div>
+
+        <button id="roll">Roll the dice</button>
+        <button id="getPoints">take from table</button>
     </section>
 
     <footer class="hide">
+
         <button id="nextPlayer">Next</button>
     </footer>
 </body>
+
 </html>

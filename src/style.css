@@ -9,6 +9,11 @@ body{
 .hide{
     display: none;
 }
+.table{
+    width: 500px;
+    height: 350px;
+    background-color: green;
+}
 
 footer ul{
     /* display: flex; */
